@@ -1,0 +1,158 @@
+#browse:hover, #home-link:hover {
+  cursor: pointer;
+}
+
+.search-large {
+  width: 250px;
+}
+
+.text-end-mobile {
+  display: none;
+}
+
+/******************************** NAV **********************************/
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
+/******************************** CHECKOUT **********************************/
+
+.checkout {
+  display: none;
+}
+
+/******************************** SIGNIN **********************************/
+
+#signin {
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .signin .form-floating:focus-within {
+    z-index: 2;
+  }
+
+  .signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .form-control-top {
+    margin-bottom: -11px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+
+/******************************** ORDER **********************************/
+
+.order {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .small-menu {
+    display: none;
+  }
+
+  .text-end-large {
+    display: none;
+  }
+
+  .search-sign {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav.sticky-top {
+    position: relative;
+  }
+
+  .mobile-hero {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .hero-h1 h1 {
+    padding: 0;
+    margin: 40px 0 20px 50px;
+  }
+
+  .plant-based {
+    width: 100px;
+    margin: 0 50px 0 -60px;
+    padding-top: 50px;
+  }
+
+  .hero-line {
+    margin-left: 50px !important;
+  }
+
+  .hero-text {
+    margin-left: 50px !important;
+  }
+
+  .hero-form {
+    margin: 0 0 0 50px !important;
+    justify-content: space-between;
+    margin-bottom: 20px !important;
+  }
+
+  .hero-form input {
+    width: 150px;
+  }
+
+  .hero-image {
+    width: 100vw;
+    margin-bottom: 15px;
+  }
+
+  .text-width {
+    width: 300px;
+  }
+  
+  .mobile-margin-text {
+    margin-right: 1rem !important;
+  }
+  
+  .mobile-buttons {
+    display: flex;
+    width: 300px;
+    margin-right: -30px;
+  }
+  
+  .mobile-buttons button {
+    width: 130px;
+    font-size: 1rem;
+  }
+  
+  .mobile-h2 {
+    width: 300px;
+    margin-top: 50px;
+  }
+
+  .cart-btn {
+    margin-right: 60px !important;
+  }
+
+  .text-end-mobile {
+    display: block;
+  }
+}
