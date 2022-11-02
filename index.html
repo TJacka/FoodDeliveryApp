@@ -27,9 +27,7 @@
         <img src="images/Painless.svg" class="mx-auto my-3" alt="" width="320px">
       </a>
       <div class="search-sign">
-        <form class="col-6 col-lg-3 mb-3 mb-lg-0 me-lg-3 mx-3" role="search">
-          <input type="search" class="form-control search-large form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-        </form>
+        
         <div class="text-end text-end-mobile" title="login">
           <a href="pages/signin.html"button" class="btn btn-warning px-3" id="login-btn">Signin</a>
         </div>
@@ -41,24 +39,26 @@
           <li><a href="pages/account.html" id="account" class="nav-link px-3 text-white link-warning dropdown">Account<br>Details</a></li>
         </ul>
       </div>
-      <a href="pages/cart.html"  class="btn btn-secondary cart-btn" title="cart" style="margin-right: -10px;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-        </svg>
-      </a>
-      <div class="text-end text-end-large" title="login">
-        <a href="pages/signin.html"button" class="btn btn-warning px-3" id="login-btn">Signin</a>
+      <div class="d-flex">
+        <a href="pages/cart.html"  class="btn btn-secondary cart-btn" title="cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+        </a>
+        <div class="text-end text-end-large" title="login">
+          <a href="pages/signin.html"button" class="btn btn-warning px-3 mx-3" id="login-btn">Signin</a>
+        </div>
       </div>
     </div>
   </nav>
   <main class="home" id="home">
     <div class="container my-5">
       <div class="mobile-hero row align-items-center justify-content-end rounded-3 border shadow-lg">
-        <div class="col-lg-5 py-lg-5 pe-5 me-4 hero-h1">
-          <h1 class="display-4 lh1" style="font-weight: 900; margin-bottom: -16px;"><img src="images/V.png" alt="" width="60px" style="position: relative; top: 45px; right: 15px; margin-top: -120px; margin-right: -20px;">egan Food Delivery <br>Service</h1>
-          <img src="images/plantbased.svg"  class="plant-based" alt="" width="150px" style="position: relative; top: -20px; right: -280px; margin-top: -100px; margin-bottom: -50px;">
+        <div class="col-lg-5 col-sm-1 me-sm-2 py-lg-5 pe-5 me-lg-5 hero-h1">
+          <h1 class="display-3 lh1" style="font-weight: 900; margin-bottom: -16px;"><img src="images/V.png" alt="" width="60px" style="position: relative; top: 45px; right: 15px; margin-top: -120px; margin-right: -20px;">egan Food Delivery <br>Service</h1>
+          <img src="images/plantbased.svg"  class="plant-based" alt="" width="150px" style="position: relative; top: -20px; right: -310px; margin-top: -90px; margin-bottom: -30px;">
           <p class="col-2 text-dark hero-line" style="border: 0.5px solid rgb(216, 201, 201); width: 100px; margin: 18px 0 27px;"></p>
-          <p class="lead fs-5 hero-text" style="font-weight:400">Fully vegan food ordering & delivery service. <br>Delivering near you today.</p>
+          <p class="lead fs-5 hero-text" style="font-weight:400">Fully vegan food ordering & delivery service.</p>
           <form class="d-flex mt-3 pe-4 hero-form" role="search">
             <input class="form-control me-2 py-2" type="search" placeholder="Search vegan food near me..." aria-label="Search">
             <button class="btn btn-outline-success px-4" type="submit">Search</button>
