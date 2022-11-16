@@ -91,7 +91,12 @@ h1 {
   top: -20px;
 }
 
-@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+.mobile-margin-text {
+  margin-right: 300px;
+  width: 500px;
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
   h1 {
     font-size: 4rem;
     line-height: 4.5rem;
@@ -121,6 +126,10 @@ h1 {
   .mobile-hero {
     padding-left: 50px;
     align-items: center;
+  }
+
+  .mobile-margin-text {
+    margin-right: 250px;
   }
 }
 
@@ -159,6 +168,10 @@ h1 {
   .mobile-hero {
     padding-left: 30px;
     align-items: center;
+  }
+
+  .mobile-margin-text {
+    margin-right: 200px;
   }
 }
 
@@ -202,7 +215,7 @@ h1 {
 
   .hero-image img {
     margin: 0 auto;
-    max-width: 630px;
+    width: 634px;
     height: 300px;
     object-fit: cover;
   }
@@ -235,6 +248,10 @@ h1 {
 
   .hero-line {
     display: none;
+  }
+
+  .form-control {
+    width: 60%
   }
 
   .plant-based {
@@ -293,7 +310,7 @@ h1 {
 
 @media only screen and (max-width: 580px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3rem;
     margin-top: 20px;
   }
@@ -304,6 +321,10 @@ h1 {
 
   .text-end-large {
     display: none;
+  }
+
+  .form-control {
+    width: 90%;
   }
 
   .search-sign {
@@ -344,10 +365,6 @@ h1 {
   .hero-form {
     margin: 0;
     margin-bottom: 20px !important;
-  }
-
-  .hero-form input {
-    width: 150px;
   }
 
   .hero-image {
