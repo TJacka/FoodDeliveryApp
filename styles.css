@@ -10,6 +10,11 @@
   display: none;
 }
 
+h1 {
+  font-size: 4.5rem;
+  line-height: 5rem;
+}
+
 /******************************** NAV **********************************/
 
 .nav-link:hover {
@@ -59,6 +64,21 @@
     border-bottom-left-radius: 0;
   }
 
+  .hero-image {
+    margin-right: 15px;
+  }
+
+  .mobile-hero {
+    padding-left: 50px;
+    align-items: center;
+  }
+
+  .hero-image img {
+    margin: 0 auto;
+    width: 620px;
+    height: 400px;
+    object-fit: cover;
+  }
 
 /******************************** ORDER **********************************/
 
@@ -66,8 +86,219 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
-  .small-menu {
+.plant-based {
+  margin-left: 0px;
+  top: -20px;
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+  .plant-based {
+    margin-left: -30px;
+    top: -20px;
+  }
+
+  .hero-h1 {
+    padding-left: 20px;
+    padding-right: -20px;
+  }
+
+  .hero-image {
+    padding-right: 0px;
+  }
+
+  .hero-image img {
+    margin: 0 auto;
+    width: 540px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .mobile-hero {
+    padding-left: 50px;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .hero-line {
+    display: none;
+  }
+
+  .plant-based {
+    margin-left: -80px;
+    top: -20px;
+    width: 120px;
+  }
+
+  .hero-h1 {
+    padding-left: 20px;
+    padding-right: -20px;
+  }
+
+  .hero-image {
+    padding-right: 0px;
+  }
+
+  .hero-image img {
+    margin: 0 auto;
+    width: 430px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .mobile-hero {
+    padding-left: 30px;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 760px) and (max-width: 989px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 2rem;
+    margin-top: 20px;
+  }
+
+  .hero-line {
+    display: none;
+  }
+
+  .plant-based {
+    margin-left: 195px;
+    padding-top: 80px;
+    width: 120px;
+  }
+
+  .hero-h1 {
+    padding-right: -20px;
+    width: 80vw;
+    margin: 20px 0;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+    margin-top: -50px;
+  }
+
+  .hero-form {
+    width: 500px;
+  }
+
+  .hero-image {
+    padding-right: 20px;
+    
+    margin: 0 auto;
+  }
+
+  .hero-image img {
+    margin: 0 auto;
+    max-width: 630px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .mobile-margin-text {
+    margin-right: 0px;
+  }
+  
+  .mobile-hero {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 550px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+  .text-end, .cart-btn {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 581px) and (max-width: 759px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    margin-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .hero-line {
+    display: none;
+  }
+
+  .plant-based {
+    display: block;
+    width: 85px;
+    margin-left: 50px;
+    top: -50px;
+  }
+
+  .hero-h1 {
+    padding-right: -20px;
+    width: 80vw;
+    margin: 20px 0;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+    margin-top: -50px;
+  }
+
+  .hero-form {
+    width: 500px;
+  }
+
+  .hero-image {
+    padding-right: 20px;
+    
+    margin: 0 auto;
+  }
+
+  .hero-image img {
+    margin: 0 auto;
+    width: 455px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .mobile-margin-text {
+    margin-right: 0px;
+  }
+  
+  .mobile-hero {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 550px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+  }
+
+  .text-end, .cart-btn {
+    margin-bottom: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 580px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: 20px;
+  }
+
+  .hero-line {
     display: none;
   }
 
@@ -87,17 +318,18 @@
   .mobile-hero {
     width: 90vw;
     margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 10px;
   }
 
   .hero-h1 h1 {
-    padding: 0;
-    margin: 40px 0 20px 50px;
+    padding-top: 30px;
+    padding-left: -20px;
+    margin: 0;
   }
 
   .plant-based {
-    width: 100px;
-    margin: 0 50px 0 -60px;
-    padding-top: 50px;
+    display: none;
   }
 
   .hero-line {
@@ -105,12 +337,12 @@
   }
 
   .hero-text {
-    margin-left: 50px !important;
+    margin-left: 0px;
+    margin-top: 25px;
   }
 
   .hero-form {
-    margin: 0 0 0 50px !important;
-    justify-content: space-between;
+    margin: 0;
     margin-bottom: 20px !important;
   }
 
@@ -119,7 +351,7 @@
   }
 
   .hero-image {
-    width: 100vw;
+    width: 200px;
     margin-bottom: 15px;
   }
 
@@ -154,4 +386,12 @@
   .text-end-mobile {
     display: block;
   }
+
+  .hero-image img {
+    margin: 0 auto;
+    width: 75vw;
+    height: 300px;
+    object-fit: cover;
+  }
+
 }
