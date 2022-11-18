@@ -9,43 +9,47 @@
     <title>Quick & Painless</title>
 </head>
 <body class="d-flex flex-column min-vh-100">
-    <div class="nav-scroller bg-secondary bg-gradient small" style="--bs-bg-opacity: .9;">
-        <div class="container-fluid">
-          <nav class="nav nav-underline d-flex justify-content-end" aria-label="Secondary navigation">
-            <a href="mission.html" class="nav-link text-light link-warning">Mission Statement</a>
-            <a href="delivery.html" class="nav-link text-light link-warning">Become A Delivery Partner</a>
-            <a href="restaurant.html" class="nav-link text-light link-warning">Become A Restaurant Partner</a>
-            <a href="specials.html" class="nav-link text-light link-warning">Newsletter & Specials</a>
-            <a href="faq.html" class="nav-link text-light link-warning">FAQ</a>
-            <a href="contact.html" class="nav-link text-light link-warning">Contact</a>
-          </nav>
+  <div class="nav-scroller bg-secondary bg-gradient small-menu style="--bs-bg-opacity: .9;">
+    <div class="container-fluid">
+      <nav class="nav nav-underline d-flex justify-content-end" aria-label="Secondary navigation">
+        <a href="mission.html" class="nav-link text-light link-warning">Mission Statement</a>
+        <a href="delivery.html" class="nav-link text-light link-warning">Become a Delivery Partner</a>
+        <a href="restaurant.html" class="nav-link text-light link-warning">Become a Restaurant Partner</a>
+        <a href="specials.html" class="nav-link text-light link-warning">Newsletter & Specials</a>
+        <a href="faq.html" class="nav-link text-light link-warning">FAQ</a>
+        <a href="contact.html" class="nav-link text-light link-warning">Contact</a>
+      </nav>
+    </div>
+  </div> 
+  <nav class="bg-dark sticky-top shadow-lg">
+    <div class="container d-flex flex-wrap align-items-center justify-content-between">
+      <a href="/FoodDeliveryApp/index.html" id="home-link" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <img src="../images/Painless.svg" class="mx-auto my-3" alt="Quick & Painless logo" width="320px">
+      </a>
+      <div class="search-sign">
+        <div class="text-end text-end-mobile" title="login">
+          <a href="../pages/signin.html"button" class="btn btn-warning px-3" id="login-btn">Signin</a>
         </div>
-    </div> 
-    <nav class="bg-dark sticky-top shadow-lg">
-        <div class="container d-flex flex-wrap align-items-center justify-content-between">
-          <a href="../index.html" id="home-link" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-            <img src="../images/Painless.svg" class="mx-auto my-3" alt="" width="320px">
-          </a>
-          <form class="col-6 col-lg-3 mb-3 mb-lg-0 me-lg-3 mx-3" role="search">
-            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-          </form>
-          <div class="d-flex">
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="browse.html" class="nav-link px-3 text-white link-warning">Browse<br>Restaurants</a></li>
-              <li><a href="history.html" id="account" class="nav-link px-3 text-white link-warning dropdown">Order<br>History</a></li>
-              <li><a href="account.html" id="account" class="nav-link px-3 text-white link-warning dropdown">Account<br>Details</a></li>
-            </ul>
-          </div>
-          <a href="cart.html"  class="btn btn-secondary" title="cart" style="margin-right: -10px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-            </svg>
-          </a>
-          <div class="text-end" title="login">
-            <a href="signin.html"button" class="btn btn-warning px-3" id="login-btn">Signin</a>
-          </div>
+      </div>
+      <div class="d-flex">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="browse.html" class="nav-link px-3 text-white link-warning">Browse<br>Restaurants</a></li>
+          <li><a href="history.html" id="account" class="nav-link px-3 text-white link-warning dropdown">Order<br>History</a></li>
+          <li><a href="account.html" id="account" class="nav-link px-3 text-white link-warning dropdown">Account<br>Details</a></li>
+        </ul>
+      </div>
+      <div class="d-flex cart-button">
+        <a href="cart.html"  class="btn btn-secondary cart-btn" title="cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+        </a>
+        <div class="text-end text-end-large" title="login">
+          <a href="signin.html" class="btn btn-warning px-3 mx-3" id="login-btn">Signin</a>
         </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
     <main>
     <div class="container col-xl-10 col-xxl-8 px-4 py-3">
         <div class="row align-items-center g-lg-5 py-5">
